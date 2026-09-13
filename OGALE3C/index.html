@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>activity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box screen active" id="screen-welcome">
+        <img src="bidabida.png" class="logo">
+        <div class="box-button1" id="orderNowBtn">
+            ORDER NOW!
+        </div>
+    </div>
+
+    <div class="box screen menu-box" id="screen-menu">
+        <div class="food-box" data-food="0">
+            <img src="burger1.jpg" class="food">
+            <p>Classic Burger</p>
+            <p>₱45</p>
+        </div>
+
+        <div class="food-box" data-food="1">
+            <img src="burger2.jpg" class="food">
+            <p>Chicken Burger</p>
+            <p>₱60</p>
+        </div>
+
+        <div class="food-box" data-food="2">
+            <img src="chicken1.jpg" class="food">
+            <p>Chicken Meal</p>
+            <p>₱99</p>
+        </div>
+
+        <div class="food-box" data-food="3">
+            <img src="chicken2.jpg" class="food">
+            <p>Double Chicken</p>
+            <p>₱120</p>
+        </div>
+
+        <p class="scroll-message" id="scrollMessage">You've reached the last food item!</p>
+    </div>
+
+    <div class="box screen" id="screen-detail">
+        <img src="" class="food" id="detailImg">
+        <h2 id="detailName"></h2>
+        <p class="price" id="detailPrice"></p>
+
+        <div class="quantity">
+            <input type="number" id="quantityNumber" value="1" min="1">
+        </div>
+
+        <div id="orderBtn" class="button">
+            ADD TO ORDER
+        </div>
+
+        <p class="added" id="addedMessage">
+            Added to Order!
+        </p>
+    </div>
+
+    <div class="box screen" id="screen-total">
+        <h2>Total</h2>
+        <p class="total" id="totalAmount"></p>
+        <p class="thank">Thank you!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
