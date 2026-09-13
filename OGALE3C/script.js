@@ -32,7 +32,7 @@ function goToMenu() {
 // When the Order Now button is clicked, open the food menu.
 orderNowBtn.addEventListener("click", goToMenu); 
  
-// When the menu is scrolled to the bottom, show a message on screen (and log it too).
+// When the menu is scrolled to the bottom, show a message on screen
 const scrollMessage = document.getElementById("scrollMessage");
 
 screenMenu.addEventListener("scroll", function () { 
