@@ -40,7 +40,7 @@ screenMenu.addEventListener("scroll", function () {
         screenMenu.scrollTop + screenMenu.clientHeight >= screenMenu.scrollHeight - 5; 
  
     if (scrolledToBottom) { 
-        console.log("NO MORE FOODS"); 
+        console.log("NO MORE FOOD"); 
         scrollMessage.classList.add("show");
     } else {
         scrollMessage.classList.remove("show");
